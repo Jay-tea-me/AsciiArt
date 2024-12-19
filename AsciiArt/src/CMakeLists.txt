@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.30)
+set(CMAKE_OSX_ARCHITECTURES x86_64)
+set(CMAKE_CXX_STANDARD 20)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+add_executable(AsciiArt main.cpp  imageTransformer.cpp)
+add_library(generator STATIC asciiArtGenerator/asciiArtGenerator.cpp)
+target_include_directories(AsciiArt PUBLIC include)
+target_link_libraries(AsciiArt ${OpenCV_LIBS} generator)
+target_include_directories(generator PUBLIC include)

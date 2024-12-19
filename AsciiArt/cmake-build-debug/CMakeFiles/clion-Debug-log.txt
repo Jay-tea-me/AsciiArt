@@ -1,0 +1,4 @@
+/Users/justinewright/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/justinewright/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/justinewright/Documents/GitHub/ascii-art/AsciiArt/AsciiArt -B /Users/justinewright/Documents/GitHub/ascii-art/AsciiArt/AsciiArt/cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/justinewright/Documents/GitHub/ascii-art/AsciiArt/AsciiArt/cmake-build-debug
