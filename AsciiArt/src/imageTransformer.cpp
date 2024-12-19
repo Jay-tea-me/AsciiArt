@@ -29,12 +29,4 @@ std::vector<std::vector<int>> getGrayPixelValues(std::string imageFilePath) {
         }
     }
     return grayPixelValues;
-
-    // Mat thresh;
-    // const int threshValue = 100;
-    // threshold(grayImage, thresh, threshValue, 255, THRESH_BINARY);
-    //
-    // const string grayImage = "Contour Window";
-    // namedWindow(contourWindow, WINDOW_AUTOSIZE );
-    // imshow(contourWindow, grayImage);
 }
